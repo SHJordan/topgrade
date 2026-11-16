@@ -1995,6 +1995,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "nix"
+version = "0.32.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77730ed34f01f4990cb2ea67fec715ecebc6fab9a6396cf83c5529b13f581bdc"
+dependencies = [
+ "bitflags 2.13.2",
+ "cfg-if",
+ "cfg_aliases",
+ "libc",
+]
+
+[[package]]
 name = "nohash-hasher"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3487,7 +3499,7 @@ dependencies = [
  "itertools 0.15.0",
  "jetbrains-toolbox-updater",
  "merge2",
- "nix",
+ "nix 0.32.0",
  "notify-rust",
  "parse-changelog",
  "parselnk",
@@ -4557,7 +4569,7 @@ dependencies = [
  "indexmap",
  "libc",
  "memchr",
- "nix",
+ "nix 0.31.3",
  "time",
  "typed-path",
  "windows-sys 0.61.2",
